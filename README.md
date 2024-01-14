@@ -1,8 +1,8 @@
 # Behaviour-aware clustering for offline policy learning
 Official implementation of paper: [URL]
 
-## Data
-Our datasets can be downloaded from [THIS LINK]. This link provides multi-behavior datasets with labels, which serve as the ground truth for evaluating clustering results. Additionally, it includes the policy trained using stable-baselines3 for generating the multi-behavior datasets.
+## Download datasets
+Our datasets can be downloaded from [THIS LINK](https://drive.google.com/drive/folders/14EYcggpa4KCgRevSe0dh3H3-8leQGIok). This link provides multi-behavior datasets with labels, which serve as the ground truth for evaluating clustering results. Additionally, it includes the policy trained using stable-baselines3 for generating the multi-behavior datasets.
 
 ## Using our code
 ### Installation
@@ -20,9 +20,14 @@ pip install -r requirements.txt
 ### Run experiments
 You can run the experiments by performing:
 ```
-python main.py --exp-name "<name>" --raw-dataset-path "<local path of multi-behaviour dataset>" --save-path "<local path>"
+python main.py --exp-name <name> --raw-dataset-path <local path of multi-behaviour dataset> --save-path <local path>
 ```
-This command only contains a part of the hyperparameters you should set to run the experiments. The rest of the 
+This command includes only a subset of the hyperparameters required to execute the experiments. You can find the remaining hyperparameters in the **main.py** file.  
+
+After the clustering process terminates as convergence, a file **estimated_traj_labels.pkl** will be created in the specified save path. This file contains the clustering results as discrete labels, which can then be compared with the ground truth labels for evaluation.
+
+### Pretrained results
+Our pretrained results can be accessed by following [THIS LINK](https://drive.google.com/drive/folders/1OYTtaq-Y-bH3j030jGdch71eGQoJnkqr?usp=sharing), which contains the tuned hyperparameters, the clustering results, and the trained neural network models.
 
 ## Cite this work
 ```
