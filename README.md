@@ -2,7 +2,7 @@
 Official implementation of paper: [URL]
 
 ## Download datasets
-Our datasets can be downloaded from [THIS LINK](https://drive.google.com/drive/folders/14EYcggpa4KCgRevSe0dh3H3-8leQGIok). This link provides multi-behavior datasets with labels, which serve as the ground truth for evaluating clustering results. Additionally, it includes the policy trained using stable-baselines3 for generating the multi-behavior datasets.
+Our datasets can be downloaded from [THIS LINK](https://drive.google.com/drive/folders/14EYcggpa4KCgRevSe0dh3H3-8leQGIok). This link provides multi-behavior datasets with labels, which serve as the ground truth for evaluating clustering results. Additionally, it includes the policy trained using [stable-baselines3](https://stable-baselines3.readthedocs.io/en/master/) for generating the multi-behavior datasets. It should be emphasized that all datasets include observations, actions, rewards, terminals, and labels, making them suitable for training policies as well.
 
 ## Using our code
 ### Installation
