@@ -35,5 +35,10 @@ Our pretrained results can be accessed by following [THIS LINK](https://drive.go
 
 ## Cite this work
 ```
-@article{}
+@article{wang-clustering,
+  title={Dataset Clustering for Improved Offline Policy Learning},
+  author={Wang, Qiang and Deng, Yixin and Sanchez, Francisco Roldan and Wang, Keru and McGuinness, Kevin and O'Connor, Noel and Redmond, Stephen J},
+  journal={arXiv preprint arXiv:2402.09550},
+  year={2024}
+}
 ```
