@@ -32,12 +32,3 @@ After the clustering process terminates as convergence, a file **estimated_traj_
 ### Pretrained results
 Our pretrained results can be accessed by following [THIS LINK](https://drive.google.com/drive/folders/1OYTtaq-Y-bH3j030jGdch71eGQoJnkqr?usp=sharing), which contains the tuned hyperparameters, the clustering results, and the trained neural network models.
 
-## Cite this work
-```
-@article{wang-clustering,
-  title={Dataset Clustering for Improved Offline Policy Learning},
-  author={Wang, Qiang and Deng, Yixin and Sanchez, Francisco Roldan and Wang, Keru and McGuinness, Kevin and O'Connor, Noel and Redmond, Stephen J},
-  journal={arXiv preprint arXiv:2402.09550},
-  year={2024}
-}
-```
